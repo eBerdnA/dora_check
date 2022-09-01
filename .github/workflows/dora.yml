@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Test another repo
-        uses: eBerdnA/deployment-frequency@eBerdnA-patch-1
+        uses: eBerdnA/deployment-frequency@main
         with:
           workflows: 'CI'
           owner-repo: 'eBerdnA/workflow-demo'
