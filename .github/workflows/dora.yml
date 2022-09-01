@@ -12,6 +12,6 @@ jobs:
         uses: eBerdnA/deployment-frequency@main
         with:
           workflows: 'CI'
-          owner-repo: 'eBerdnA/pyjou'
+          owner-repo: 'eBerdnA/workflow-demo'
           default-branch: 'main'
           number-of-days: 30
