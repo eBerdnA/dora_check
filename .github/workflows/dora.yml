@@ -11,7 +11,7 @@ jobs:
       - name: Test another repo
         uses: eBerdnA/deployment-frequency@main
         with:
-          workflows: 'CI'
+          workflows: 'parent2'
           owner-repo: 'eBerdnA/workflow-demo'
           default-branch: 'main'
           number-of-days: 30
