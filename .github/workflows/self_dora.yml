@@ -1,0 +1,14 @@
+name: self_dora_check
+
+on: workflow_dispatch
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test another repo
+        uses: eberdna/deployment-frequency@main
+        with:
+          workflows: 'dora_check'
