@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Test another repo
-        uses: samsmithnz/deployment-frequency@1.0.2
+        uses: eberdna/deployment-frequency@eBerdnA-headers
         with:
           workflows: 'parent2'
           owner-repo: 'eBerdnA/workflow-demo'
