@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: Test another repo
-        uses: samsmithnz/deployment-frequency@main
+        uses: eBerdnA/deployment-frequency@github-app2
         with:
           workflows: 'dora_check'
